@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    background-color: #1E3F2D;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+header img{
+    margin-bottom: 2rem;
+}
+
+nav{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+a{
+    color: black;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: 6rem;
+    height: 3rem;
+    border: none;
+    color: white;
+    font-weight: 200;
+}
+
+.button:hover{
+    text-decoration: underline;
+}
+
+
+main{
+    background-color: #AACBB9;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    min-height: 100vh;
+}
+
+
+.TitleContainer{
+    position: relative;
+    width: 105%;
+    height: 40rem;
+    left: 0.8rem;
+    z-index: 0;
+}
+
+.TitleImage{
+    width: 100%;
+    max-height: 100%;
+    position: absolute;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.575);
+    z-index: 0;
+}
+
+.TitleContainer h1{
+    font-family: "Playfair Display", serif;
+    font-size: 5rem;
+    padding: none;
+    margin: none;
+    position: relative;
+    color: #b3ffd4;
+    margin-left: 1.5rem;
+    font-weight: 300;
+    text-shadow: 3px 3px 10px #0000001e;
+    z-index: 0;
+}
+
+.TitleContainer p {
+    position: relative;
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+    font-weight: 100;
+    text-shadow: 3px 3px 5px #00000057;
+    color: #b3ffd4;
+    z-index: 0;
+}
+
+.InformationContainer{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    width: 90%;
+    background-color: #E6E5DC;
+}
+
+.InformationContainer h2{
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+.InformationContainer p{
+    max-width: 100ch;
+}
+
+.FitnessContainer{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    font-weight: 300;
+}
+
+.FitnessImageContainer{
+    max-width: 40rem;
+}
+
+.FitnessContainer img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.575);
+}
+
+.FitnessContainer h2{
+    font-weight: 400;
+}
+
+.NutritionContainer{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    font-weight: 300;
+}
+
+.NutritionImageContainer{
+    max-width: 40rem;
+}
+
+.NutritionContainer img{
+    width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.575);
+}
+
+.NutritionContainer h2{
+    font-weight: 400;
+}
+
+.VideoContainer{
+    margin-top: 2rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background-color: #AACBB9;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-weight: 200;
+}
+
+.FooterImageContainer{
+    display: flex;
+    gap: 2rem;
+}
+
+footer img{
+    max-width: 2rem;
+    max-height: 2rem;
+}
+
