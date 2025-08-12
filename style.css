@@ -42,11 +42,14 @@ a{
     align-items: center;
     text-decoration: none;
     cursor: pointer;
-    width: 6rem;
-    height: 3rem;
+    width: 9rem;
+    height: 2.5rem;
     border: none;
+    border-radius: 0.6rem;
+    backdrop-filter: blur(10px);
     color: white;
     font-weight: 200;
+    background-color: rgba(0, 104, 31, 0.226);
 }
 
 .button:hover{
@@ -54,21 +57,11 @@ a{
 }
 
 
-main{
-    background-color: #AACBB9;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    width: 90%;
+.TitleContainer{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-    min-height: 100vh;
-}
-
-
-.TitleContainer{
     position: relative;
     width: 105%;
     height: 40rem;
@@ -90,10 +83,10 @@ main{
     padding: none;
     margin: none;
     position: relative;
-    color: #b3ffd4;
+    color: #b3ffca;
     margin-left: 1.5rem;
     font-weight: 300;
-    text-shadow: 3px 3px 10px #0000001e;
+    text-shadow: 2px 2px 1px #0000001e;
     z-index: 0;
 }
 
@@ -102,9 +95,22 @@ main{
     font-size: 1.5rem;
     margin-left: 1.5rem;
     font-weight: 100;
-    text-shadow: 3px 3px 5px #00000057;
-    color: #b3ffd4;
+    text-shadow: 2px 2px 1px #00000057;
+    color: #b3ffca;
     z-index: 0;
+}
+
+main{
+    background-color: #AACBB9;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    min-height: 100vh;
 }
 
 .InformationContainer{
